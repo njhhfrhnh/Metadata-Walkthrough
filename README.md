@@ -66,11 +66,7 @@ binwalk -e dog.jpg
 
 This means the file was detected but required manual extraction.
 
----
-
-### 4. Manual Extraction (dd + unzip)
-
-Command:
+Command 3:
 dd if=dog.jpg of=hidden.zip bs=1 skip=88221
 
 - Purpose: To manually extract the hidden ZIP file using the offset value
@@ -80,13 +76,13 @@ dd if=dog.jpg of=hidden.zip bs=1 skip=88221
   - bs=1 → copy byte by byte
   - skip → start extracting from specific offset
 
-Command:
+Command 4:
 unzip hidden.zip
 
 - Purpose: Extract contents of ZIP file
 - Result: hidden_text.txt successfully extracted
 
-Command:
+Command 5:
 cat hidden_text.txt
 
 - Purpose: Display file content
@@ -96,7 +92,7 @@ This confirms that files can be embedded inside images and require manual extrac
 
 ---
 
-### 5. Strings (Readable Text Extraction)
+### 4. Strings (Readable Text Extraction)
 
 Command:
 strings computer.jpg
@@ -115,7 +111,7 @@ This shows that not all files contain hidden data, even if readable strings are 
 
 ---
 
-### 6. File Command (File Type Verification)
+### 5. File Command (File Type Verification)
 
 Command:
 file solitaire.exe
@@ -148,7 +144,7 @@ Overall, it highlights how attackers can hide data inside files and how forensic
 ---
 
 ## File Included
-- METADATA WALKTHROUGH W4 LAB.pdf
+- METADATA WALKTHROUGH.pdf
 
 ---
 
