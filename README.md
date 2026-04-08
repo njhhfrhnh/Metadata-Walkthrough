@@ -1,4 +1,4 @@
-# Week 4 Lab - Metadata Analysis Walkthrough
+# Metadata Analysis Walkthrough
 
 This repository contains a walkthrough for Week 4 Lab Activity focusing on metadata analysis and hidden data extraction techniques from image files.
 
