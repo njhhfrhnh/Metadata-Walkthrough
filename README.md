@@ -1,6 +1,6 @@
 # Metadata Analysis Walkthrough
 
-This repository contains a walkthrough for Week 4 Lab Activity focusing on metadata analysis and hidden data extraction techniques from image files.
+This repository contains a walkthrough for Metadata analysis and hidden data extraction techniques from image files.
 
 The objective of this lab is to understand how hidden information can be stored inside files and how to extract it using different forensic tools.
 
